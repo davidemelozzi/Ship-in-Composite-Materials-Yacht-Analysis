@@ -1,0 +1,522 @@
+<?xml version="1.0" standalone="yes"?>
+<Composites V="1" SubV="4">
+  <ToolkitComposeIT V="1" SubV="1">
+    <IndividualLayers>
+      <Unidirectional ID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Label="Unitape" FibreID="0" ResinID="0" FibrePercentage="43" MixFibreRatioType="1" FibreWeight="1000" />
+      <WovenRoving ID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Label="Vetrotex 1250" FibreID="0" ResinID="0" FibrePercentage="47" MixFibreRatioType="2" FibreWeight="1235" WovenBalance="47" />
+      <WovenRoving ID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Label="Vetrotex 860" FibreID="0" ResinID="0" FibrePercentage="47" MixFibreRatioType="2" FibreWeight="900" WovenBalance="47" />
+      <Mat ID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Label="Mat 450" FibreID="0" ResinID="0" FibrePercentage="33" MixFibreRatioType="2" FibreWeight="444" />
+      <Mat ID="9d3f1cfb-4a94-4f09-8883-da9680199da2" Label="Mat 300" FibreID="0" ResinID="0" FibrePercentage="28" MixFibreRatioType="2" FibreWeight="293" />
+    </IndividualLayers>
+    <CombinedLayers />
+    <Laminates DefaultFabricationProcess="2">
+      <Laminate ID="762b493c-8a41-4c50-a666-983b23722c32" Label="Bottom" FabricationProcess="3">
+        <LayerOriented ID="6bbe5a11-660f-44fa-ba78-0cc01a5ec438" IndividualLayerID="9d3f1cfb-4a94-4f09-8883-da9680199da2" Angle="0" />
+        <LayerOriented ID="95ce3057-0efb-4b01-85d6-cc56e716c305" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="2ca10e92-9ef3-4986-ab42-268f17e2369a" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="3504dadb-6dff-4bd1-bc61-af2c02ab95d8" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="795e7f22-eef7-4fd6-a661-812ef538fc27" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="eca0d9a9-24bc-46c8-aa02-7cfa6fa250d3" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="90" />
+        <LayerOriented ID="b34a78bb-12bc-479f-b760-d43f80a2b9f9" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="047d52e7-a439-46c4-a8e2-752bfe2f7ced" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="9" />
+        <LayerOriented ID="2e937cfe-fb75-47fe-9368-776934fa9dbc" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="9" />
+        <LayerOriented ID="83fdb60f-2b48-495c-8b19-db319bb2c374" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="e79c3917-8d29-430b-adbe-6eb5983014ba" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="9" />
+        <LayerOriented ID="bb82ee54-555c-4e7d-8cb8-3947305b9f53" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+      </Laminate>
+      <Laminate ID="2d82f999-425a-4e4a-bd59-e43484db51d7" Label="Side" FabricationProcess="2">
+        <LayerOriented ID="53ccf7af-f705-4504-ac1a-9d6f18a0d7b8" IndividualLayerID="9d3f1cfb-4a94-4f09-8883-da9680199da2" Angle="0" />
+        <LayerOriented ID="e9fbc8b7-7457-40db-93b8-747e2b300bde" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="d21afcb7-b12b-4351-9308-985c6c9f218c" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="78b52e43-a4d7-41c4-8bd2-27dc4f7ffcf3" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="a792b163-7831-40c1-a110-c7992d1fbcdc" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="d543987d-ac41-4aca-97dd-66101875f844" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="9" />
+        <LayerOriented ID="e4fa55d8-9e17-4669-86b5-0f80c1cd973f" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="a7bd0057-84b4-47f3-83b7-bc4cb16a6316" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="9" />
+        <LayerOriented ID="d83b9640-d1af-4d9d-9fcd-1e86a34f5a57" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+      </Laminate>
+      <Laminate ID="ab629565-7709-4e49-a4f8-55f60f07c443" Label="Reinforcements web" FabricationProcess="2">
+        <LayerOriented ID="13538d9e-c031-42fb-934f-775ada8cb44d" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="0ab205e9-eed5-48c4-a9b8-5ef707860ccb" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="0" />
+        <LayerOriented ID="047663f0-53c2-4421-a8fc-82df1721b631" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="90" />
+        <LayerOriented ID="fe32e871-c5c7-4af9-8e1c-80fac946bdf8" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="90" />
+        <LayerOriented ID="8b1aa49b-3045-413f-bcdb-56c3fec8f61d" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="0" />
+      </Laminate>
+      <Laminate ID="58ef24dc-bdd6-4edd-99ce-3c13245f3727" Label="Bottom longitudinal flange" FabricationProcess="2">
+        <LayerOriented ID="bbad47cd-df3b-4b48-accb-3579df009efe" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="8c6baaf9-bffb-4b8e-85f0-eb5096930d9b" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="0" />
+        <LayerOriented ID="bb7611fa-448a-449f-b944-59417f48b6ec" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="90" />
+        <LayerOriented ID="cc43fc8c-7520-4677-9c33-7d766402f1c3" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="8ca5a9b8-6df8-4606-9e34-bc0e7db06f57" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="2b8dd6c0-88a4-40d5-b81e-e9a000348d13" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="713d67bf-6b45-4ef5-b9e2-cfa0a5ec74cb" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="0d5e3645-f068-4ad4-a2ba-5281f067d2aa" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="90" />
+        <LayerOriented ID="5390efa2-9ca2-4fcf-93c9-19e1b4480ed9" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="0" />
+      </Laminate>
+      <Laminate ID="aa6316a9-0100-4e00-8478-9ffa9974f5a1" Label="Transverse reinforcement flange" FabricationProcess="2">
+        <LayerOriented ID="3dfc1945-b613-4f2b-9364-e75203f25f0c" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="52ce0714-f296-46b2-abe9-187229ca0ca0" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="0" />
+        <LayerOriented ID="1da4a345-a2c0-4359-b996-7bb87758b21e" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="90" />
+        <LayerOriented ID="e64963bb-cadc-44be-bedf-7fb0c8c13cd1" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="54887551-4074-4417-baba-e34474a61b73" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="900b82cb-8ba8-47d3-804f-d1fe60f31645" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="1e50e93b-f5df-4153-ad31-0f05674c72f9" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="20feef54-4e4f-4abb-9abf-c6da8d13ae4b" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="e35558c8-66fa-4dd7-a1e6-ed5cc62e6f4b" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="faccf4b3-35ab-48fe-ab83-81b8d9ed6a54" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="ef70d50e-1ba0-41d6-b427-80b0305059b4" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="1b8de877-93de-46e9-9104-44c4c6581879" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="94a55661-64c3-45d7-bab9-e89f70bf7cbd" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="f2853ed6-419d-40e7-9fb4-96fc35d0661e" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="90" />
+        <LayerOriented ID="87a9cd5f-289e-4990-9b63-82bf397dc859" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="0" />
+      </Laminate>
+      <Laminate ID="a393f6f0-e6f6-4011-a24c-3b0792ef11cd" Label="Laminate 1" FabricationProcess="3">
+        <LayerOriented ID="8c41f5ed-33df-4ae4-91b8-edadcbdaaeba" IndividualLayerID="9d3f1cfb-4a94-4f09-8883-da9680199da2" Angle="0" />
+        <LayerOriented ID="64d7dd60-dfcc-48ad-a33c-0c97c65f1a84" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="45bd4219-6792-4407-ad3b-a275008cd022" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="99be10d7-56df-4ce7-822a-048afc09b1ce" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="d46eadd1-faa3-41c6-898c-b13ad1d64bf7" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="0d9e8dd0-0499-40e8-9fa1-9ba3c9976766" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="bf668c03-dc8d-4ffa-a10e-cdc2bf689032" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="7a912f75-ea10-4610-9961-c0c87e32ccbc" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+        <LayerOriented ID="b61455c4-c4ee-4caa-81cf-4761bbff68e9" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+      </Laminate>
+      <Laminate ID="169622a0-adf4-4f99-8007-26bb6ba22dcb" Label="Laminate 2" FabricationProcess="2">
+        <LayerOriented ID="cecb4e65-84a8-404e-b8b2-13429cf4894c" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="ac3b477b-6b80-4296-abb1-baf7dc24317a" IndividualLayerID="abe91359-f2c1-4312-bc9f-eb55ae5fc863" Angle="0" />
+        <LayerOriented ID="83b9daae-1053-4abf-a2ff-0bc5b99f0bd0" IndividualLayerID="d22b0936-6ce2-4b99-904b-2d8b8fbabb95" Angle="0" />
+      </Laminate>
+      <Laminate ID="0dfbc16e-2c14-4c2c-920d-fca5bd9b99ea" Label="Laminate 3" FabricationProcess="2">
+        <LayerOriented ID="2987f9ff-2986-4380-9b09-c35c1b3ab9dc" IndividualLayerID="cffbd4cf-5660-4b79-88e2-74d897d72b5f" Angle="0" />
+        <LayerOriented ID="e64bdaa2-ee41-40cd-beeb-4243dcfc31e1" IndividualLayerID="7a811000-50c6-42f0-bc2a-9da6718bccd1" Angle="0" />
+      </Laminate>
+    </Laminates>
+    <Assemblies>
+      <Assembly ID="fb219773-db53-4c7a-94ba-db7ed45c01b0" Name="Bottom Longitudinal" Type="4" AttachedPlatingLaminateID="762b493c-8a41-4c50-a666-983b23722c32" AttachedPlatingWidth="0.75" StiffenerWebOnAttachedPlatingLayer="1" WebLaminateID="ab629565-7709-4e49-a4f8-55f60f07c443" WebHeight="120" FlangeLaminateID="58ef24dc-bdd6-4edd-99ce-3c13245f3727" FlangeWidth="100" FlangeLayerOnWeb="1" Orientation="1">
+        <AttachedPlatingReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+        <FlangeReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+      </Assembly>
+      <Assembly ID="3afb1c6b-acb7-4f6d-bd2b-0db18e8bff26" Name="Stiffeners 2 laminate*" Type="4" AttachedPlatingLaminateID="762b493c-8a41-4c50-a666-983b23722c32" AttachedPlatingWidth="0.75" StiffenerWebOnAttachedPlatingLayer="1" WebLaminateID="ab629565-7709-4e49-a4f8-55f60f07c443" WebHeight="120" FlangeLaminateID="ab629565-7709-4e49-a4f8-55f60f07c443" FlangeWidth="100" FlangeLayerOnWeb="1" Orientation="1">
+        <AttachedPlatingReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+        <FlangeReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+      </Assembly>
+      <Assembly ID="31663edb-7bcb-4541-8f18-4c77c384499d" Name="Bottom transversal" Type="3" AttachedPlatingLaminateID="762b493c-8a41-4c50-a666-983b23722c32" AttachedPlatingWidth="0.75" StiffenerWebOnAttachedPlatingLayer="2" WebLaminateID="ab629565-7709-4e49-a4f8-55f60f07c443" WebHeight="200" FlangeLaminateID="aa6316a9-0100-4e00-8478-9ffa9974f5a1" FlangeWidth="150" FlangeLayerOnWeb="1" Orientation="2">
+        <AttachedPlatingReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+        <FlangeReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+      </Assembly>
+      <Assembly ID="50a0ebfd-e51f-4b1d-b20a-5ea362b0630e" Name="Transverse Reinforcement" Type="3" AttachedPlatingLaminateID="2d82f999-425a-4e4a-bd59-e43484db51d7" AttachedPlatingWidth="0.75" StiffenerWebOnAttachedPlatingLayer="2" WebLaminateID="ab629565-7709-4e49-a4f8-55f60f07c443" WebHeight="200" FlangeLaminateID="aa6316a9-0100-4e00-8478-9ffa9974f5a1" FlangeWidth="150" FlangeLayerOnWeb="1" Orientation="2">
+        <AttachedPlatingReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+        <FlangeReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+      </Assembly>
+      <Assembly ID="c5f6b062-6cf4-46f8-9b44-123844b6fda2" Name="Stiffener 1" Type="4" AttachedPlatingLaminateID="762b493c-8a41-4c50-a666-983b23722c32" AttachedPlatingWidth="0.75" StiffenerWebOnAttachedPlatingLayer="2" WebLaminateID="0dfbc16e-2c14-4c2c-920d-fca5bd9b99ea" WebHeight="200" FlangeLaminateID="169622a0-adf4-4f99-8007-26bb6ba22dcb" FlangeWidth="150" FlangeLayerOnWeb="1" Orientation="2">
+        <AttachedPlatingReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+        <FlangeReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+      </Assembly>
+      <Assembly ID="dbe987b7-b307-48e2-94e6-96436562c2bc" Name="Stiffener 2*" Type="3" AttachedPlatingWidth="0" StiffenerWebOnAttachedPlatingLayer="2" WebHeight="0" FlangeWidth="0" FlangeLayerOnWeb="1" Orientation="1">
+        <AttachedPlatingReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+        <FlangeReinforcement UseReinforcement="false" Dimension="0" WebOnLayer="1" />
+      </Assembly>
+    </Assemblies>
+    <CustomAssemblies />
+  </ToolkitComposeIT>
+  <BsdComposites RegisterNumber="TS4764" CreationDate="06/22/2022" ShipName="Yacht" ExpertName="Davide Melozzi" Shipyard="Baglietto" Comments="Project's Vessel" RuleLength="26" AppliedRule="500" Amd="50001" />
+  <Plates>
+    <Category ID="24966b8c-3234-4402-b085-8a999c4fb939" Name="Bottom">
+      <Plate ID="3f28eb53-87ab-4c4e-acaa-e0abf4746522" Name="Bottom" LengthX="0.9" LengthY="0.6" Wsx="0.12" Wsy="0.15" LaminateID="762b493c-8a41-4c50-a666-983b23722c32" ElementType="0">
+        <Pressure LoadCaseID="a1300585-d531-4352-8464-06d8dee25de2" LoadCaseName="Hydrostatic (36.66 kN/m²)" LoadType="1" Pressure="36.66" PressedLayer="2" />
+        <Pressure LoadCaseID="070824bd-117b-4072-8408-04e5c28e24a2" LoadCaseName="Bottom Slamming (66.59 kN/m²)" LoadType="2" Pressure="66.59" PressedLayer="2" />
+      </Plate>
+    </Category>
+    <Category ID="f8373ad9-98ce-4df0-8fdb-885507032e3b" Name="Side">
+      <Plate ID="4eefcc50-55cc-46d6-b071-35c6c1315aae" Name="Side" LengthX="0.9" LengthY="0.6" Wsx="0.15" Wsy="0.2" LaminateID="2d82f999-425a-4e4a-bd59-e43484db51d7" ElementType="0">
+        <Pressure LoadCaseID="b0ccfd72-6a01-4bb7-89cc-5a616d538582" LoadType="1" Pressure="8.23" PressedLayer="2" />
+        <Pressure LoadCaseID="3f038496-35c4-49b1-affd-81834034275e" LoadType="3" Pressure="26" PressedLayer="2" />
+      </Plate>
+    </Category>
+    <Category ID="151de22c-030e-43e1-996e-2cfcdbb23165" Name="bottom laminate">
+      <Plate ID="07ce6092-da29-4ae6-beee-8b498a759b7b" Name="bottom laminate" LengthX="0.9" LengthY="0.6" Wsx="0.12" Wsy="0.15" LaminateID="a393f6f0-e6f6-4011-a24c-3b0792ef11cd" ElementType="0">
+        <Pressure LoadCaseID="8a729bb1-ad3e-40ae-8985-a49db647beea" LoadType="1" Pressure="36.66" PressedLayer="1" />
+        <Pressure LoadCaseID="d81e850d-11bc-4d17-8176-e9f06f5d14a5" LoadType="2" Pressure="66.59" PressedLayer="1" />
+      </Plate>
+      <Plate ID="052958ca-51de-46f8-918c-816d3308ecbc" Name="bottom laminate (Copy)" LengthX="0.9" LengthY="0.6" Wsx="0" Wsy="0.15" LaminateID="a393f6f0-e6f6-4011-a24c-3b0792ef11cd" ElementType="0">
+        <Pressure LoadCaseID="3f39be19-d171-4ea1-8a91-846b2bac3f9c" LoadType="1" Pressure="36.66" PressedLayer="1" />
+        <Pressure LoadCaseID="05ebfed9-8ee7-4318-aa6c-9f1f237a9726" LoadType="2" Pressure="66.59" PressedLayer="1" />
+      </Plate>
+    </Category>
+  </Plates>
+  <Stiffeners>
+    <Category ID="f53df456-43bb-43a6-a247-0b9363dee399" Name="Bottom">
+      <Stiffener ID="5fdc78eb-ea10-4460-a70a-f440809c3216" AssemblyID="fb219773-db53-4c7a-94ba-db7ed45c01b0" Spacing="0.6" Span="0.9" Position="1" EndCondition="1" ElementType="0">
+        <Pressure LoadCaseID="178f9a4c-b35b-4f25-975b-9fdd3bd11970" LoadType="1" Pressure="33.66" PressureLow="0" PressedLayer="2" />
+        <Pressure LoadCaseID="8143e097-479e-4dfd-9060-f57fc9026c8d" LoadType="2" Pressure="66.59" PressureLow="0" PressedLayer="2" />
+      </Stiffener>
+      <Stiffener ID="d26256dc-5768-41be-8b42-08e76d65af22" AssemblyID="3afb1c6b-acb7-4f6d-bd2b-0db18e8bff26" Spacing="0.6" Span="0.9" Position="1" EndCondition="1" ElementType="0">
+        <Pressure LoadCaseID="046a2e8a-57e9-4263-af7f-958d72e869a7" LoadType="1" Pressure="33.66" PressureLow="0" PressedLayer="2" />
+        <Pressure LoadCaseID="1ea2cc24-793e-42a0-9fb5-c9bb0dc1d3b2" LoadType="2" Pressure="66.59" PressureLow="0" PressedLayer="2" />
+      </Stiffener>
+      <Stiffener ID="89d144ed-57b0-4cf6-abc8-4322de1ddb6a" AssemblyID="31663edb-7bcb-4541-8f18-4c77c384499d" Spacing="0.6" Span="0.9" Position="2" EndCondition="1" ElementType="0">
+        <Pressure LoadCaseID="8bc69a63-8392-45b9-8128-a49c4642ff0b" LoadType="1" Pressure="33.66" PressureLow="0" PressedLayer="1" />
+        <Pressure LoadCaseID="86f8e7d1-9e27-4aca-bce4-da99e1c85d45" LoadType="2" Pressure="66.59" PressureLow="0" PressedLayer="1" />
+      </Stiffener>
+    </Category>
+    <Category ID="224bac77-94b5-4eee-a1ea-bc638b8b49fe" Name="Side">
+      <Stiffener ID="96731c64-7770-4dd2-9edc-3c330e382c84" AssemblyID="50a0ebfd-e51f-4b1d-b20a-5ea362b0630e" Spacing="0.6" Span="0.75" Position="2" EndCondition="1" ElementType="0">
+        <Pressure LoadCaseID="b7690478-73bc-4f3f-9e04-cf7703ed17b4" LoadType="1" Pressure="8.23" PressureLow="0" PressedLayer="2" />
+        <Pressure LoadCaseID="697dd23c-242c-45bf-bade-f1b4780b5d39" LoadType="3" Pressure="33.21" PressureLow="0" PressedLayer="2" />
+        <Pressure LoadCaseID="acab3941-e952-4ef8-ac97-662aa3409d13" LoadType="1" Pressure="0" PressureLow="0" PressedLayer="1" />
+      </Stiffener>
+    </Category>
+    <Category ID="7e588f02-cab4-411f-b1de-28f8b2c92d33" Name="Stiffeners Laminate">
+      <Stiffener ID="eb157525-3085-47a7-b3b5-86f7ff40d480" AssemblyID="c5f6b062-6cf4-46f8-9b44-123844b6fda2" Spacing="0.6" Span="0.9" Position="1" EndCondition="1" ElementType="0">
+        <Pressure LoadCaseID="c03ed9f5-e822-4a76-a679-54b0ef8825a3" LoadType="1" Pressure="33.66" PressureLow="0" PressedLayer="1" />
+        <Pressure LoadCaseID="5e664acb-86fc-47e2-87da-828f06a1356a" LoadType="2" Pressure="66.59" PressureLow="0" PressedLayer="1" />
+      </Stiffener>
+      <Stiffener ID="fa7f3670-e710-43f5-9912-522143bd9f64" AssemblyID="dbe987b7-b307-48e2-94e6-96436562c2bc" Spacing="0" Span="0" Position="1" EndCondition="1" ElementType="0" />
+    </Category>
+  </Stiffeners>
+  <CustomStiffeners>
+    <Category ID="a7fe9e77-e6c7-40e4-8e01-e61bc382ef8f" Name="Bottom" />
+    <Category ID="d172ad11-39f6-4e0b-be89-a0914c462cb9" Name="Side" />
+    <Category ID="7e49aae1-fb4b-40ec-b88b-46b7b08647d6" Name="Deck" />
+    <Category ID="e5a9da98-6031-435d-8a54-09c2ff46a5f5" Name="Bulkhead" />
+    <Category ID="e84e01c8-9d30-4e9a-b958-61b4652463a8" Name="Other" />
+  </CustomStiffeners>
+  <TestPanels />
+  <Results>
+    <PlateResults />
+    <TestPanelResults />
+    <StiffenerResults>
+      <OneStiffenerResults ID="eb157525-3085-47a7-b3b5-86f7ff40d480">
+        <BucklingResults CriticalColumnBucklingStress="436.8832" CriticalWebBucklingStress="7.483499" SfBuckling="2.4012" />
+        <StiffenerProperties V="25.30374" EI="5.005962E+11" ExSx="1.867165E+08" ExIz="7.869945E+12" GxIx="4.541315E+10" GySy="2.62383E+07" GzSz="2338068" Ey="0" Ez="-16.56416" />
+        <LoadCase LoadCaseID="c03ed9f5-e822-4a76-a679-54b0ef8825a3" LoadType="1" SetResultsAsValid="false" Comments="">
+          <StiffenerElement StiffElementType="2">
+            <LoadResults StiffElementName="Attached plating" M="-1.029996" T="6.0588" Nx="0" IsEpsilon="true" EpsilonOrGamma="0.003371593" InfosText="Results computed at stiffener ends" />
+            <LayerOriented LayerOrientedID="6bbe5a11-660f-44fa-ba78-0cc01a5ec438">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.08801659" SigmaRule="98.19089" SF="3" />
+                <SFSig2 SigmaAct="0.2933886" SigmaRule="98.19089" SF="3" />
+                <SFTau12 SigmaAct="-1.257499E-17" SigmaRule="-48.72998" SF="3.3" />
+                <SigComb CombinedAct="376.5428" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="95ce3057-0efb-4b01-85d6-cc56e716c305">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.09934037" SigmaRule="110.8236" SF="3" />
+                <SFSig2 SigmaAct="0.3311346" SigmaRule="110.8236" SF="3" />
+                <SFTau12 SigmaAct="-1.419283E-17" SigmaRule="-54.99933" SF="3.3" />
+                <SigComb CombinedAct="376.5428" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="2ca10e92-9ef3-4986-ab42-268f17e2369a">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.09934037" SigmaRule="110.8236" SF="3" />
+                <SFSig2 SigmaAct="0.3311346" SigmaRule="110.8236" SF="3" />
+                <SFTau12 SigmaAct="-1.419283E-17" SigmaRule="-54.99933" SF="3.3" />
+                <SigComb CombinedAct="376.5428" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="3504dadb-6dff-4bd1-bc61-af2c02ab95d8">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.09934037" SigmaRule="110.8236" SF="3" />
+                <SFSig2 SigmaAct="0.3311346" SigmaRule="110.8236" SF="3" />
+                <SFTau12 SigmaAct="-1.419283E-17" SigmaRule="-54.99933" SF="3.3" />
+                <SigComb CombinedAct="376.5428" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="795e7f22-eef7-4fd6-a661-812ef538fc27">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.05614932" SigmaRule="204.4496" SF="3.6" />
+                <SFSig2 SigmaAct="0.5230677" SigmaRule="220.6231" SF="3.6" />
+                <SFTau12 SigmaAct="-8.682455E-18" SigmaRule="-25.23435" SF="2.7" />
+                <SigComb CombinedAct="447.4915" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="eca0d9a9-24bc-46c8-aa02-7cfa6fa250d3">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.4847225" SigmaRule="204.4496" SF="3.6" />
+                <SFSig2 SigmaAct="0.05614932" SigmaRule="220.6231" SF="3.6" />
+                <SFTau12 SigmaAct="1.736491E-17" SigmaRule="25.23435" SF="2.7" />
+                <SigComb CombinedAct="445.6721" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="b34a78bb-12bc-479f-b760-d43f80a2b9f9">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.05614932" SigmaRule="204.4496" SF="3.6" />
+                <SFSig2 SigmaAct="0.5230677" SigmaRule="220.6231" SF="3.6" />
+                <SFTau12 SigmaAct="-8.682455E-18" SigmaRule="-25.23435" SF="2.7" />
+                <SigComb CombinedAct="447.4915" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="047d52e7-a439-46c4-a8e2-752bfe2f7ced">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.06663726" SigmaRule="204.4496" SF="3.6" />
+                <SFSig2 SigmaAct="0.5116414" SigmaRule="220.6231" SF="3.6" />
+                <SFTau12 SigmaAct="0.02190929" SigmaRule="25.23435" SF="2.7" />
+                <SigComb CombinedAct="429.4375" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="2e937cfe-fb75-47fe-9368-776934fa9dbc">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.06663726" SigmaRule="204.4496" SF="3.6" />
+                <SFSig2 SigmaAct="0.5116414" SigmaRule="220.6231" SF="3.6" />
+                <SFTau12 SigmaAct="0.02190929" SigmaRule="25.23435" SF="2.7" />
+                <SigComb CombinedAct="429.4375" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="83fdb60f-2b48-495c-8b19-db319bb2c374">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.05614932" SigmaRule="204.4496" SF="3.6" />
+                <SFSig2 SigmaAct="0.5230677" SigmaRule="220.6231" SF="3.6" />
+                <SFTau12 SigmaAct="-8.682455E-18" SigmaRule="-25.23435" SF="2.7" />
+                <SigComb CombinedAct="447.4915" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="e79c3917-8d29-430b-adbe-6eb5983014ba">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.06663726" SigmaRule="204.4496" SF="3.6" />
+                <SFSig2 SigmaAct="0.5116414" SigmaRule="220.6231" SF="3.6" />
+                <SFTau12 SigmaAct="0.02190929" SigmaRule="25.23435" SF="2.7" />
+                <SigComb CombinedAct="429.4375" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="bb82ee54-555c-4e7d-8cb8-3947305b9f53">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.05614932" SigmaRule="204.4496" SF="3.6" />
+                <SFSig2 SigmaAct="0.5230677" SigmaRule="220.6231" SF="3.6" />
+                <SFTau12 SigmaAct="-8.682455E-18" SigmaRule="-25.23435" SF="2.7" />
+                <SigComb CombinedAct="447.4915" SF="3.15" />
+              </LayerCriteria>
+            </LayerOriented>
+          </StiffenerElement>
+          <StiffenerElement StiffElementType="3">
+            <LoadResults StiffElementName="Web" M="-1.029996" T="6.0588" Nx="0" IsEpsilon="false" EpsilonOrGamma="0.2380503" InfosText="Results computed at stiffener ends" />
+            <LayerOriented LayerOrientedID="2987f9ff-2986-4380-9b09-c35c1b3ab9dc">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0" SigmaRule="110.8236" SF="2.76" />
+                <SFSig2 SigmaAct="0" SigmaRule="110.8236" SF="2.76" />
+                <SFTau12 SigmaAct="8.182878" SigmaRule="54.99933" SF="3.036" />
+                <SigComb CombinedAct="6.721269" SF="2.898" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="e64bdaa2-ee41-40cd-beeb-4243dcfc31e1">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0" SigmaRule="204.4496" SF="3.312" />
+                <SFSig2 SigmaAct="0" SigmaRule="220.6231" SF="3.312" />
+                <SFTau12 SigmaAct="5.00587" SigmaRule="25.23435" SF="2.484" />
+                <SigComb CombinedAct="5.040952" SF="2.898" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="cc02bce6-73fb-44c1-be64-9e6ea5828b88">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0" SigmaRule="204.4496" SF="3.312" />
+                <SFSig2 SigmaAct="0" SigmaRule="220.6231" SF="3.312" />
+                <SFTau12 SigmaAct="5.00587" SigmaRule="25.23435" SF="2.484" />
+                <SigComb CombinedAct="5.040952" SF="2.898" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="6fc2834d-604c-4c00-8428-7d64387f7cba">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0" SigmaRule="110.8236" SF="2.76" />
+                <SFSig2 SigmaAct="0" SigmaRule="110.8236" SF="2.76" />
+                <SFTau12 SigmaAct="8.182878" SigmaRule="54.99933" SF="3.036" />
+                <SigComb CombinedAct="6.721269" SF="2.898" />
+              </LayerCriteria>
+            </LayerOriented>
+          </StiffenerElement>
+          <StiffenerElement StiffElementType="4">
+            <LoadResults StiffElementName="Flange" M="-1.029996" T="6.0588" Nx="0" IsEpsilon="true" EpsilonOrGamma="-0.03969002" InfosText="Results computed at stiffener ends" />
+            <LayerOriented LayerOrientedID="cecb4e65-84a8-404e-b8b2-13429cf4894c">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="-3.898079" SigmaRule="-110.8236" SF="2.76" />
+                <SFSig2 SigmaAct="-1.169424" SigmaRule="-110.8236" SF="2.76" />
+                <SFTau12 SigmaAct="0" SigmaRule="54.99933" SF="3.036" />
+                <SigComb CombinedAct="31.98661" SF="2.898" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="ac3b477b-6b80-4296-abb1-baf7dc24317a">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="-13.52508" SigmaRule="-481.7736" SF="2.898" />
+                <SFSig2 SigmaAct="-0.8576678" SigmaRule="-91.64945" SF="1.725" />
+                <SFTau12 SigmaAct="0" SigmaRule="40.14827" SF="2.208" />
+                <SigComb CombinedAct="42.79473" SF="2.346" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="83b9daae-1053-4abf-a2ff-0bc5b99f0bd0">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="-5.7061" SigmaRule="-204.4496" SF="3.312" />
+                <SFSig2 SigmaAct="-0.6609837" SigmaRule="-220.6232" SF="3.312" />
+                <SFTau12 SigmaAct="0" SigmaRule="25.23435" SF="2.484" />
+                <SigComb CombinedAct="37.85901" SF="2.898" />
+              </LayerCriteria>
+            </LayerOriented>
+          </StiffenerElement>
+        </LoadCase>
+        <LoadCase LoadCaseID="5e664acb-86fc-47e2-87da-828f06a1356a" LoadType="2" SetResultsAsValid="false" Comments="">
+          <StiffenerElement StiffElementType="2">
+            <LoadResults StiffElementName="Attached plating" M="-2.037654" T="11.9862" Nx="0" IsEpsilon="true" EpsilonOrGamma="0.006670064" InfosText="Results computed at stiffener ends" />
+            <LayerOriented LayerOrientedID="6bbe5a11-660f-44fa-ba78-0cc01a5ec438">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1741243" SigmaRule="98.19089" SF="2.4" />
+                <SFSig2 SigmaAct="0.5804143" SigmaRule="98.19089" SF="2.4" />
+                <SFTau12 SigmaAct="-2.487727E-17" SigmaRule="-48.72998" SF="2.64" />
+                <SigComb CombinedAct="190.3354" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="95ce3057-0efb-4b01-85d6-cc56e716c305">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1965263" SigmaRule="110.8236" SF="2.4" />
+                <SFSig2 SigmaAct="0.6550875" SigmaRule="110.8236" SF="2.4" />
+                <SFTau12 SigmaAct="-2.807786E-17" SigmaRule="-54.99933" SF="2.64" />
+                <SigComb CombinedAct="190.3354" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="2ca10e92-9ef3-4986-ab42-268f17e2369a">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1965263" SigmaRule="110.8236" SF="2.4" />
+                <SFSig2 SigmaAct="0.6550875" SigmaRule="110.8236" SF="2.4" />
+                <SFTau12 SigmaAct="-2.807786E-17" SigmaRule="-54.99933" SF="2.64" />
+                <SigComb CombinedAct="190.3354" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="3504dadb-6dff-4bd1-bc61-af2c02ab95d8">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1965263" SigmaRule="110.8236" SF="2.4" />
+                <SFSig2 SigmaAct="0.6550875" SigmaRule="110.8236" SF="2.4" />
+                <SFTau12 SigmaAct="-2.807786E-17" SigmaRule="-54.99933" SF="2.64" />
+                <SigComb CombinedAct="190.3354" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="795e7f22-eef7-4fd6-a661-812ef538fc27">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1110809" SigmaRule="204.4496" SF="2.88" />
+                <SFSig2 SigmaAct="1.034791" SigmaRule="220.6231" SF="2.88" />
+                <SFTau12 SigmaAct="-1.717661E-17" SigmaRule="-25.23435" SF="2.16" />
+                <SigComb CombinedAct="226.1986" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="eca0d9a9-24bc-46c8-aa02-7cfa6fa250d3">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.9589325" SigmaRule="204.4496" SF="2.88" />
+                <SFSig2 SigmaAct="0.1110809" SigmaRule="220.6231" SF="2.88" />
+                <SFTau12 SigmaAct="3.435321E-17" SigmaRule="25.23435" SF="2.16" />
+                <SigComb CombinedAct="225.2789" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="b34a78bb-12bc-479f-b760-d43f80a2b9f9">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1110809" SigmaRule="204.4496" SF="2.88" />
+                <SFSig2 SigmaAct="1.034791" SigmaRule="220.6231" SF="2.88" />
+                <SFTau12 SigmaAct="-1.717661E-17" SigmaRule="-25.23435" SF="2.16" />
+                <SigComb CombinedAct="226.1986" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="047d52e7-a439-46c4-a8e2-752bfe2f7ced">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1318293" SigmaRule="204.4496" SF="2.88" />
+                <SFSig2 SigmaAct="1.012187" SigmaRule="220.6231" SF="2.88" />
+                <SFTau12 SigmaAct="0.04334343" SigmaRule="25.23435" SF="2.16" />
+                <SigComb CombinedAct="217.0727" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="2e937cfe-fb75-47fe-9368-776934fa9dbc">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1318293" SigmaRule="204.4496" SF="2.88" />
+                <SFSig2 SigmaAct="1.012187" SigmaRule="220.6231" SF="2.88" />
+                <SFTau12 SigmaAct="0.04334343" SigmaRule="25.23435" SF="2.16" />
+                <SigComb CombinedAct="217.0727" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="83fdb60f-2b48-495c-8b19-db319bb2c374">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1110809" SigmaRule="204.4496" SF="2.88" />
+                <SFSig2 SigmaAct="1.034791" SigmaRule="220.6231" SF="2.88" />
+                <SFTau12 SigmaAct="-1.717661E-17" SigmaRule="-25.23435" SF="2.16" />
+                <SigComb CombinedAct="226.1986" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="e79c3917-8d29-430b-adbe-6eb5983014ba">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1318293" SigmaRule="204.4496" SF="2.88" />
+                <SFSig2 SigmaAct="1.012187" SigmaRule="220.6231" SF="2.88" />
+                <SFTau12 SigmaAct="0.04334343" SigmaRule="25.23435" SF="2.16" />
+                <SigComb CombinedAct="217.0727" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="bb82ee54-555c-4e7d-8cb8-3947305b9f53">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0.1110809" SigmaRule="204.4496" SF="2.88" />
+                <SFSig2 SigmaAct="1.034791" SigmaRule="220.6231" SF="2.88" />
+                <SFTau12 SigmaAct="-1.717661E-17" SigmaRule="-25.23435" SF="2.16" />
+                <SigComb CombinedAct="226.1986" SF="2.52" />
+              </LayerCriteria>
+            </LayerOriented>
+          </StiffenerElement>
+          <StiffenerElement StiffElementType="3">
+            <LoadResults StiffElementName="Web" M="-2.037654" T="11.9862" Nx="0" IsEpsilon="false" EpsilonOrGamma="0.4709379" InfosText="Results computed at stiffener ends" />
+            <LayerOriented LayerOrientedID="2987f9ff-2986-4380-9b09-c35c1b3ab9dc">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0" SigmaRule="110.8236" SF="2.208" />
+                <SFSig2 SigmaAct="0" SigmaRule="110.8236" SF="2.208" />
+                <SFTau12 SigmaAct="16.18829" SigmaRule="54.99933" SF="2.4288" />
+                <SigComb CombinedAct="3.397476" SF="2.3184" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="e64bdaa2-ee41-40cd-beeb-4243dcfc31e1">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0" SigmaRule="204.4496" SF="2.6496" />
+                <SFSig2 SigmaAct="0" SigmaRule="220.6231" SF="2.6496" />
+                <SFTau12 SigmaAct="9.903176" SigmaRule="25.23435" SF="1.9872" />
+                <SigComb CombinedAct="2.548107" SF="2.3184" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="cc02bce6-73fb-44c1-be64-9e6ea5828b88">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0" SigmaRule="204.4496" SF="2.6496" />
+                <SFSig2 SigmaAct="0" SigmaRule="220.6231" SF="2.6496" />
+                <SFTau12 SigmaAct="9.903176" SigmaRule="25.23435" SF="1.9872" />
+                <SigComb CombinedAct="2.548107" SF="2.3184" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="6fc2834d-604c-4c00-8428-7d64387f7cba">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="0" SigmaRule="110.8236" SF="2.208" />
+                <SFSig2 SigmaAct="0" SigmaRule="110.8236" SF="2.208" />
+                <SFTau12 SigmaAct="16.18829" SigmaRule="54.99933" SF="2.4288" />
+                <SigComb CombinedAct="3.397476" SF="2.3184" />
+              </LayerCriteria>
+            </LayerOriented>
+          </StiffenerElement>
+          <StiffenerElement StiffElementType="4">
+            <LoadResults StiffElementName="Flange" M="-2.037654" T="11.9862" Nx="0" IsEpsilon="true" EpsilonOrGamma="-0.07851926" InfosText="Results computed at stiffener ends" />
+            <LayerOriented LayerOrientedID="cecb4e65-84a8-404e-b8b2-13429cf4894c">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="-7.711619" SigmaRule="-110.8236" SF="2.208" />
+                <SFSig2 SigmaAct="-2.313486" SigmaRule="-110.8236" SF="2.208" />
+                <SFTau12 SigmaAct="0" SigmaRule="54.99933" SF="2.4288" />
+                <SigComb CombinedAct="16.16863" SF="2.3184" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="ac3b477b-6b80-4296-abb1-baf7dc24317a">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="-26.75684" SigmaRule="-481.7736" SF="2.3184" />
+                <SFSig2 SigmaAct="-1.696735" SigmaRule="-91.64945" SF="1.38" />
+                <SFTau12 SigmaAct="0" SigmaRule="40.14827" SF="1.7664" />
+                <SigComb CombinedAct="21.63194" SF="1.8768" />
+              </LayerCriteria>
+            </LayerOriented>
+            <LayerOriented LayerOrientedID="83b9daae-1053-4abf-a2ff-0bc5b99f0bd0">
+              <LayerCriteria>
+                <SFSig1 SigmaAct="-11.28845" SigmaRule="-204.4496" SF="2.6496" />
+                <SFSig2 SigmaAct="-1.307632" SigmaRule="-220.6232" SF="2.6496" />
+                <SFTau12 SigmaAct="0" SigmaRule="25.23435" SF="1.9872" />
+                <SigComb CombinedAct="19.13703" SF="2.3184" />
+              </LayerCriteria>
+            </LayerOriented>
+          </StiffenerElement>
+        </LoadCase>
+      </OneStiffenerResults>
+    </StiffenerResults>
+    <CustomStiffenerResults />
+  </Results>
+</Composites>

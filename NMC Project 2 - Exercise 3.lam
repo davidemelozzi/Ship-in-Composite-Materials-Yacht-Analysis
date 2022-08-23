@@ -1,0 +1,112 @@
+<COMPOSITE>
+  <Ships>
+    <Ship UID="id1">
+      <Attributes Label="Yacht Project: NMC" Job="Project 2 @IST" Builder="Rui Costa" SecNbStr="8" RuleLength="26" DataVersion="3" FabricationProcess="HandLayUp" />
+      <ObjectRef UID="id2" Member="UDMix1" />
+      <ObjectRef UID="id3" Member="WRMix1" />
+      <ObjectRef UID="id4" Member="WRMix2" />
+      <ObjectRef UID="id5" Member="MaMix1" />
+      <ObjectRef UID="id6" Member="MaMix2" />
+      <ObjectRef UID="id7" Member="LamPl1" />
+      <ObjectRef UID="id13" Member="PlaDk1" />
+      <ObjectRef UID="id14" Member="PlaDk2" />
+      <ObjectRef UID="id15" Member="PlaDk3" />
+      <ObjectRef UID="id16" Member="PlaDk4" />
+      <ObjectRef UID="id17" Member="PlaDk5" />
+    </Ship>
+  </Ships>
+  <Plates>
+    <Plate UID="id13">
+      <Attributes Label="deck plate 1" Location="Deck" LengthX="0.9" LengthY="0.6" Wsx="0" Wsy="0.15" />
+      <ObjectInt Member="Load1" Category="PressureLoad" Type="HydrodynamicLoad" Pressure="12.13" PressedLayer="Layer1" PressureLow="0" />
+      <ObjectRef UID="id7" Member="Laminate" />
+    </Plate>
+    <Plate UID="id14">
+      <Attributes Label="deck plate 2" Location="Deck" LengthX="0.9" LengthY="0.6" Wsx="0" Wsy="0.15" />
+      <ObjectInt Member="Load1" Category="PressureLoad" Type="HydrodynamicLoad" Pressure="12.13" PressedLayer="Layer1" PressureLow="0" />
+      <ObjectRef UID="id7" Member="Laminate" />
+    </Plate>
+    <Plate UID="id15">
+      <Attributes Label="deck plate 3" Location="Deck" LengthX="0.9" LengthY="0.6" Wsx="0" Wsy="0.15" />
+      <ObjectInt Member="Load1" Category="PressureLoad" Type="HydrodynamicLoad" Pressure="12.13" PressedLayer="Layer1" PressureLow="0" />
+      <ObjectRef UID="id7" Member="Laminate" />
+    </Plate>
+    <Plate UID="id16">
+      <Attributes Label="deck plate 4" Location="Deck" LengthX="0.9" LengthY="0.6" Wsx="0" Wsy="0.15" />
+      <ObjectInt Member="Load1" Category="PressureLoad" Type="HydrodynamicLoad" Pressure="12.13" PressedLayer="Layer1" PressureLow="0" />
+      <ObjectRef UID="id7" Member="Laminate" />
+    </Plate>
+    <Plate UID="id17">
+      <Attributes Label="deck plate 5" Location="Deck" LengthX="0.9" LengthY="0.6" Wsx="0" Wsy="0.15" />
+      <ObjectInt Member="Load1" Category="PressureLoad" Type="HydrodynamicLoad" Pressure="12.13" PressedLayer="Layer1" PressureLow="0" />
+      <ObjectRef UID="id7" Member="Laminate" />
+    </Plate>
+  </Plates>
+  <Stiffeners />
+  <Laminates>
+    <Laminate UID="id7">
+      <Attributes Label="Deck" FabProc="HandLayUp" Usage="Plate" />
+      <ObjectRef UID="id8" Member="Layer1" />
+      <ObjectRef UID="id9" Member="Layer2" />
+      <ObjectRef UID="id10" Member="Layer3" />
+      <ObjectRef UID="id11" Member="Layer4" />
+      <ObjectRef UID="id12" Member="Layer5" />
+    </Laminate>
+  </Laminates>
+  <Unidirectionals>
+    <Unidirectional UID="id2">
+      <Attributes Label="ud" FibreRatio="43" RatioType="Volume" Pf="1000" />
+      <ObjectRef UID="Resin1" Member="Resin" />
+      <ObjectRef UID="Fibre1" Member="Fibre" />
+    </Unidirectional>
+  </Unidirectionals>
+  <WovenRovings>
+    <WovenRoving UID="id3">
+      <Attributes Label="vetrotex 1250" FibreRatio="47.62" RatioType="Mass" Pf="1250" WovenBalance="50" />
+      <ObjectRef UID="Resin1" Member="Resin" />
+      <ObjectRef UID="Fibre1" Member="Fibre" />
+    </WovenRoving>
+    <WovenRoving UID="id4">
+      <Attributes Label="vetrotex 860" FibreRatio="45.45" RatioType="Mass" Pf="860" WovenBalance="50" />
+      <ObjectRef UID="Resin1" Member="Resin" />
+      <ObjectRef UID="Fibre1" Member="Fibre" />
+    </WovenRoving>
+  </WovenRovings>
+  <Mats>
+    <Mat UID="id5">
+      <Attributes Label="mat 450" FibreRatio="33.33" RatioType="Mass" Pf="450" />
+      <ObjectRef UID="Resin1" Member="Resin" />
+      <ObjectRef UID="Fibre1" Member="Fibre" />
+    </Mat>
+    <Mat UID="id6">
+      <Attributes Label="mat 300" FibreRatio="28.57" RatioType="Mass" Pf="300" />
+      <ObjectRef UID="Resin1" Member="Resin" />
+      <ObjectRef UID="Fibre1" Member="Fibre" />
+    </Mat>
+  </Mats>
+  <Layers>
+    <Layer UID="id8">
+      <Attributes Angle="0" />
+      <ObjectRef UID="id5" Member="LayerInStock" />
+    </Layer>
+    <Layer UID="id9">
+      <Attributes Angle="0" />
+      <ObjectRef UID="id5" Member="LayerInStock" />
+    </Layer>
+    <Layer UID="id10">
+      <Attributes Angle="0" />
+      <ObjectRef UID="id5" Member="LayerInStock" />
+    </Layer>
+    <Layer UID="id11">
+      <Attributes Angle="0" />
+      <ObjectRef UID="id3" Member="LayerInStock" />
+    </Layer>
+    <Layer UID="id12">
+      <Attributes Angle="0" />
+      <ObjectRef UID="id3" Member="LayerInStock" />
+    </Layer>
+  </Layers>
+  <Cores />
+  <Adhesives />
+  <UserDefinedLayers />
+</COMPOSITE>
